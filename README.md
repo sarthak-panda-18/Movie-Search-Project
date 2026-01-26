@@ -1,21 +1,41 @@
-# Movie Search Project
+# 🎬 Movie Search Project
 
-A simple web application to search for movies. As you type, it searches and displays movie posters, ratings, and release years.
+A responsive web application that allows users to search for movies in real time using the TMDB API. As the user types, the application dynamically fetches and displays movie posters, titles, release years, and ratings with a clean and simple user interface.
 
-## Setup
+---
 
-1. Get an API key from [TMDB](https://www.themoviedb.org/settings/api).
+## 🛠️ Tech Stack
 
-2. Replace 'YOUR_API_KEY_HERE' in script.js with your API key.
+- HTML5  
+- CSS3  
+- JavaScript (ES6)  
+- TMDB API  
 
-3. To run locally, use a local server (e.g., python -m http.server or VS Code Live Server extension) and open index.html.
+---
 
-## Features
+## ⚙️ Setup Instructions
 
-- Real-time search as you type (debounced).
+1. Create an account on https://www.themoviedb.org and generate an API key.
+2. Open the `script.js` file.
+3. Replace `YOUR_API_KEY_HERE` with your TMDB API key.
+4. Start a local server using the command:
+   ```
+   python -m http.server
+   ```
+5. Open `index.html` in your browser.
 
-- Displays poster, title, year, rating.
+---
 
-- If no results, shows popular movies.
+## ✨ Features
 
-- No error messages; always shows content.
+- Real-time movie search as the user types
+- Displays movie poster, title, release year, and rating
+- Shows popular movies when no search query is entered
+- Clean and user-friendly interface
+- Fast and lightweight performance
+
+---
+
+## 📄 License
+
+This project is created for learning and educational purposes.
