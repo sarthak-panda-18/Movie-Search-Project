@@ -1,4 +1,4 @@
-const API_KEY = 'ae0fcffdf99472850fe6890100fc58f9'; // Get from https://www.themoviedb.org/settings/api
+
 
 const searchInput = document.getElementById('search');
 const resultsDiv = document.getElementById('results');
